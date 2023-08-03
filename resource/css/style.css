@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Unica+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --maincolor: #f8c0bd;
+}
+.section-main {
+    background-size: auto;
+    background-image: url(/resource/img/001-transparent50.png);
+}
+.section-nav {
+    background-color: #ff3c1a;
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+.section-nav ul{
+    text-decoration: none;
+}
+.section-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav_ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+}
+.logo_nav {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Unica One', cursive;
+    background-color:  #ff3c1a;
+    width: 9vh;
+    height: 100vw;
+}
+.nav_ul {
+    list-style: none;
+    display: flex;
+}
+.nav_ul li {
+    letter-spacing: 5px;
+    margin-left: 30px;
+    padding: 5px;
+}
