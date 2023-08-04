@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *{
     box-sizing: border-box;
@@ -10,14 +10,14 @@
     --maincolor: #f8c0bd;
 }
 .section-main {
-    background-size: auto;
-    background-image: url(/resource/img/001-transparent50.png);
+    background-size: cover;
+    background-image: url(/resource/img/001-fundo-tranparent50.png);
 }
 .section-nav {
     background-color: #ff3c1a;
     text-decoration: none;
     padding: 5px;
-    color: #000;
+    color: #0c194e;
 }
 .section-nav ul{
     text-decoration: none;
@@ -28,7 +28,7 @@
 }
 .nav_ul li a {
     text-decoration: none;
-    color: #000;
+    color: #0c194e;
     padding: 3px;
 }
 .logo_nav {
@@ -53,4 +53,47 @@
     letter-spacing: 5px;
     margin-left: 30px;
     padding: 5px;
+}
+.nav_menu {
+    width: 35px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.5s;
+    display: none;
+    cursor: pointer;
+}
+/* ------------- MAIN ------------- */
+
+body {
+    font-family: 'Righteous', cursive;
+    background: var(--maincolor);
+    color: #0c194e;
+    overflow-x: hidden;
+}
+.description1 {
+    height: 90vh;
+    display: flex;
+    width: 75vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12vw;
+}
+.background-photo {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    padding: 20px;
+}
+.backgorund-photo img {
+    width: 400px;
+    height: 400px;
+    margin: 100px 0;
+    object-fit: cover;
+    z-index: -1;
+}
+.text-desc {
+    width: 100%;
+    flex-basis: 50%;
+    padding: 15px 35px 0 20px;
 }
